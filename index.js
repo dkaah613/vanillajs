@@ -1,7 +1,12 @@
-function sayHello(name, age){
-    console.log('Hello!', name, "you have", age, "years of age");
+const calculator = {
+    plus: function(a, b){
+        console.log (a + b);
+    }
 }
 
-sayHello("nicolas", 15);
-//argument는무한대로 가질수 있다
-//지금 name- argument 값을 nicolas 가 받아서 출력을 한다
+
+// /console.log = (greetNicolas);
+
+
+const plus = calculator.plus(5,5)
+console.log(plus)
